@@ -1,0 +1,263 @@
+body{
+    background-color: rgb(221, 219, 219);
+}
+
+h1{
+    font-size: 32px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    color: #ffe819;
+}
+
+#header{
+    /** Relativos ao tamanho e posição do header**/
+    width: 100%;
+    height: 100px;
+    position: relative;
+    left:50%;
+    border-radius: 15px;
+    margin-left: -50%;
+
+    /** Relativos ao estilo e fonte do header**/
+    background-color:rgb(50, 50, 168);
+    border: 3px solid black;
+    color:#ffe819;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#menu{
+    /** Relativos ao tamanho e posição do menu**/
+    width: 90%;
+    padding-top: 1px;
+    position: relative;
+    left:50%;
+    border-radius: 5px;
+    margin-left: -45%;
+
+    /** Estilo e fonte do menu **/
+    background-color: rgb(91, 91, 224);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+
+}
+
+.menuLista li{
+    /** Disposição do menu lado a lado **/
+    display: inline-block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.menuLista li a{
+    /** Referente aos itens dentro do menu **/
+    text-decoration: none;
+    color: white;
+}
+
+.menuLista li a:hover {
+
+    /** Muda a cor do link para amarelo **/
+    color: #ffe819;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#content{
+    /** Tamanho e posição do content**/
+    width: 80%;
+    position: relative;
+    left: 50%;
+    margin-left: -40%;
+    border-radius: 5px;
+
+    /** Estilo e fonte do content**/
+    border: 1px solid black;
+    background-color: white;
+    color:  rgb(32, 32, 32);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    
+}
+
+#banner{
+    /** Tamanho e estilo do banner **/
+    background-image: url('imagens/fullmetal.png');
+    background-size: 25cm;
+    color: #ffe819;
+    border:1px solid black;
+    text-shadow: 2px 2px 2px black;
+}
+
+#banner h2{
+    padding-left: 40%;   
+}
+
+#banner h1{
+    padding-left: 5%;
+    text-align: justify;
+}
+
+#maisVendidos h1{
+    /** Título da aba mais vendidos **/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color:#ffe819;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+
+}
+
+#maisVendidos img{
+    /** imagens da área mais vendidos **/
+    margin-left: 70px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #ffe819;
+
+}
+
+.infoProduto{
+    /** Nome e preço do produto da área mais vendidos **/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color:navy;
+    text-align: center;
+    margin-left: 20%;
+}
+
+/** ESTILOS EXCLUSIVOS DA PÁGINA "produtos" **/
+
+#sidebar{
+    /** Referente ao estilo e posição da sidebar **/
+    left: 0%;
+    width: 9.5%;
+    height: 100%;
+    background-color: navy;
+    position: fixed;
+    border-radius: 1%;
+    margin-left: 10px;
+}
+
+.sidebarLista li{
+    /** Disposição do menu lado a lado **/
+    padding-bottom: 20px;
+}
+
+.sidebarLista li a{
+    /** Referente aos itens dentro do menu **/
+    text-decoration: none;
+    color: #ffe819;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sidebarLista li a:hover {
+
+    /** Muda a cor do link para rosa escuro **/
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#graphicNovel h1{
+     /** Título da aba graphic novels **/
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 32px;
+     color: navy;
+     text-align: center;
+     text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#graphicNovel img{
+    /** imagens da área graphic novels **/
+    margin-left: 90px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid navy;
+}
+
+#mangas h1{
+    /** Título da aba mangás **/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: red;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#mangas img{
+    /** imagens da mangas **/
+    margin-left: 90px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+
+
+#colecao h1{
+    /** Título da aba coleções **/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: green;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#colecao img{
+    /** imagens de coleções **/
+    margin-left: 90px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid green;
+}
+
+#sobre{
+    /** Estilo do texto da aba sobre **/
+    text-align: center;
+    color:navy;
+    font-size: large;
+}
+
+#sobre img{
+    /** Estilo das imagens da aba sobre **/
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-left: 200px; 
+    border-radius: 50%;
+    border: 3px solid navy;
+}
+    
+
+#tel {
+    /** Barra dos números de telefone **/
+    left: 120px;
+    height: 40px;
+    background-color: rgb(221, 219, 219);  
+    color: navy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#tel a:hover{
+    text-shadow: 1px 1px 1px black;
+    color: #ffe819;
+}
+
+#tel a:link{
+    text-decoration: none;
+}
+
+#contato{
+     /** Estilo do texto da aba contato **/
+     text-align: center;
+     color:navy;
+     font-size: large;
+}
